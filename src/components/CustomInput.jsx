@@ -26,7 +26,7 @@ function CustomInput(props) {
       onSearchChangeResults(newData, searchField);
       updateTextIndex(searchField.length)
     }
-    if ((textIndex > searchField.length) || (textIndex > searchField.length)) {
+    if (textIndex > searchField.length) {
       updateTextIndex(searchField.length)
       onSearchChangeResults(data, searchField);
     }
